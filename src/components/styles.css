@@ -1,0 +1,156 @@
+.container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+}
+
+.title {
+	color: #7b7d96;
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	width: 100%;
+}
+
+.searchbox {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.icon {
+	background: url(../../public/search.svg) no-repeat 15px center;
+	background-size: 16px;
+	padding: 10px 40px;
+	background-color: white;
+	color: #9899ad;
+	font-weight: 600;
+	border-radius: 5px;
+	border: 2px solid #f0f0f5;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.icon:focus {
+	border: none;
+	outline: #9899ad solid 1px;
+}
+
+.submit {
+	border: none;
+	color: white;
+	background: #38b896;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-weight: 600;
+	height: 50px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.search-results {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.user-img {
+	width: 120px;
+	height: 120px;
+}
+
+.flexbox {
+	gap: 10px;
+	padding: 20px;
+	background: white;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.flex-item {
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.table {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.body {
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: start;
+	border-color: #ededf2;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+}
+
+.header {
+	background-color: #f9f9f9;
+	border-top: 1px solid #ededf2;
+}
+
+.content {
+	background-color: white;
+	flex-direction: column;
+}
+
+.header > div {
+	padding: 10px 20px;
+	width: 100%;
+	color: #81849c;
+}
+
+.search-term {
+	color: #81849c;
+	font-weight: 600;
+}
+
+.table-body {
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 20px;
+	border-color: #ededf2;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+}
+
+.table-body > div {
+	width: 100%;
+}
+
+.result-box {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
